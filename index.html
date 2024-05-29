@@ -8,9 +8,17 @@
 <body>
     <section>
         <h2>Contato</h2>
-        <form action="" method="post">
+        <form action="https://api.staticforms.xyz/submit" method="post">
             <label>Nome</label>
             <input type="text" name="name" placeholder="Digite seu nome">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email">
+            <label>Mensagens</label>
+            <input type="message" col="30" rows="10" placeholder="Digite sua mensagem">
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="d049ef18-ff9f-4715-b0ee-4728e4d4d274"
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/projeto_login/obrigado.html">
         </form>
     </section>
 </body>
